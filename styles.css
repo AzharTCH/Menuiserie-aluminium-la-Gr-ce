@@ -43,41 +43,21 @@ body{
 .ligne2{
     
 } */
-.img1{
-    background-image: url(IMG/WhatsApp\ Image\ 2023-04-19\ à\ 09.37.53.jpg);
+.img-container {
     height: 50vh;
     width: 50vh;
     border-radius: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    margin-right: 30px;
+    overflow: hidden;
     margin-bottom: 8em;
 }
-.img2{
-    background-image: url(IMG/WhatsApp\ Image\ 2023-04-19\ à\ 09.39.02.jpg);
-    height: 50vh;
-    width: 50vh;
-    border-radius: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.img3{
-    background-image: url(IMG/WhatsApp\ Image\ 2023-04-19\ à\ 09.40.18.jpg);
-    height: 50vh;
-    width: 50vh;
-    border-radius: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
 
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.img4{
-    background-image: url(IMG/WhatsApp\ Image\ 2023-04-19\ à\ 09.42.53.jpg);
-    height: 50vh;
-    width: 50vh;
-    border-radius: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 5em;
-}
+
 #NMV{
     margin-left: 4em;
 }
